@@ -1,0 +1,89 @@
+{
+ "as_of": "2026-09-22T20:00:00+00:00",
+ "capital": 1000,
+ "coins": [
+  {
+   "chg7d": 0.1394,
+   "eur": 214.74,
+   "price": 86189.25,
+   "score": 0.856,
+   "sym": "BTC",
+   "weight": 0.2147
+  },
+  {
+   "chg7d": 0.1482,
+   "eur": 214.74,
+   "price": 2753.63,
+   "score": 0.857,
+   "sym": "ETH",
+   "weight": 0.2147
+  },
+  {
+   "chg7d": 0.2239,
+   "eur": 214.74,
+   "price": 118.57,
+   "score": 0.855,
+   "sym": "SOL",
+   "weight": 0.2147
+  },
+  {
+   "chg7d": 0.1072,
+   "eur": 214.74,
+   "price": 788.4,
+   "score": 0.855,
+   "sym": "BNB",
+   "weight": 0.2147
+  },
+  {
+   "chg7d": 0.2255,
+   "eur": 0,
+   "price": 1.5727,
+   "score": 0.485,
+   "sym": "XRP",
+   "weight": 0
+  },
+  {
+   "chg7d": 0.0276,
+   "eur": 0,
+   "price": 0.3421,
+   "score": 0.461,
+   "sym": "TRX",
+   "weight": 0
+  },
+  {
+   "chg7d": 0.2542,
+   "eur": 0,
+   "price": 0.10044,
+   "score": 0.738,
+   "sym": "DOGE",
+   "weight": 0
+  },
+  {
+   "chg7d": 0.4667,
+   "eur": 141.02,
+   "price": 1630.05,
+   "score": 0.835,
+   "sym": "ZEC",
+   "weight": 0.141
+  },
+  {
+   "chg7d": 0.3014,
+   "eur": 0,
+   "price": 0.2543,
+   "score": 0.57,
+   "sym": "ADA",
+   "weight": 0
+  },
+  {
+   "chg7d": 0.5903,
+   "eur": 0,
+   "price": 345.1,
+   "score": 0.652,
+   "sym": "BCH",
+   "weight": 0
+  }
+ ],
+ "generated": "2026-09-24T11:12:19Z",
+ "invested": 1,
+ "version": "v3"
+}

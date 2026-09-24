@@ -1,0 +1,62 @@
+[
+ {
+  "as_of": "2026-09-22T20:00:00+00:00",
+  "delta_eur": 214.7,
+  "done": false,
+  "from_eur": 0,
+  "price": 788.4,
+  "score": 0.855,
+  "sym": "BNB",
+  "to_eur": 214.7,
+  "type": "ABRIR",
+  "id": "2026-09-22_BNB_ABRIR"
+ },
+ {
+  "as_of": "2026-09-22T20:00:00+00:00",
+  "delta_eur": 214.7,
+  "done": false,
+  "from_eur": 0,
+  "price": 86189.25,
+  "score": 0.856,
+  "sym": "BTC",
+  "to_eur": 214.7,
+  "type": "ABRIR",
+  "id": "2026-09-22_BTC_ABRIR"
+ },
+ {
+  "as_of": "2026-09-22T20:00:00+00:00",
+  "delta_eur": 214.7,
+  "done": false,
+  "from_eur": 0,
+  "price": 2753.63,
+  "score": 0.857,
+  "sym": "ETH",
+  "to_eur": 214.7,
+  "type": "ABRIR",
+  "id": "2026-09-22_ETH_ABRIR"
+ },
+ {
+  "as_of": "2026-09-22T20:00:00+00:00",
+  "delta_eur": 214.7,
+  "done": false,
+  "from_eur": 0,
+  "price": 118.57,
+  "score": 0.855,
+  "sym": "SOL",
+  "to_eur": 214.7,
+  "type": "ABRIR",
+  "id": "2026-09-22_SOL_ABRIR"
+ },
+ {
+  "as_of": "2026-09-22T20:00:00+00:00",
+  "delta_eur": 141,
+  "done": false,
+  "from_eur": 0,
+  "price": 1630.05,
+  "score": 0.835,
+  "sym": "ZEC",
+  "to_eur": 141,
+  "type": "ABRIR",
+  "id": "2026-09-22_ZEC_ABRIR"
+ }
+]
