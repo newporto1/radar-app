@@ -58,5 +58,29 @@
   "to_eur": 141,
   "type": "ABRIR",
   "id": "2026-09-22_ZEC_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "BNB",
+  "from_eur": 217.0,
+  "to_eur": 0.0,
+  "delta_eur": -217.0,
+  "price": 776.69,
+  "score": 0.719,
+  "as_of": "2026-09-24T20:00:00+00:00",
+  "done": false,
+  "id": "2026-09-24_BNB_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "BCH",
+  "from_eur": 0.0,
+  "to_eur": 144.2,
+  "delta_eur": 144.2,
+  "price": 338.4,
+  "score": 0.741,
+  "as_of": "2026-09-24T20:00:00+00:00",
+  "done": false,
+  "id": "2026-09-24_BCH_ABRIR"
  }
 ]
