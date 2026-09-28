@@ -1,89 +1,89 @@
 {
  "version": "v3",
- "as_of": "2026-09-25T20:00:00+00:00",
- "generated": "2026-09-27T06:40:56Z",
+ "as_of": "2026-09-26T20:00:00+00:00",
+ "generated": "2026-09-28T06:45:55Z",
  "capital": 1000.0,
  "invested": 1.0,
  "coins": [
   {
    "sym": "BTC",
-   "price": 84060.01,
-   "score": 0.738,
-   "weight": 0.2358,
-   "eur": 235.76,
-   "chg7d": 0.039
+   "price": 84436.9,
+   "score": 0.728,
+   "weight": 0.2348,
+   "eur": 234.82,
+   "chg7d": 0.0392
   },
   {
    "sym": "ETH",
-   "price": 2691.61,
-   "score": 0.721,
-   "weight": 0.2358,
-   "eur": 235.76,
-   "chg7d": 0.0304
+   "price": 2696.33,
+   "score": 0.714,
+   "weight": 0.2348,
+   "eur": 234.82,
+   "chg7d": 0.0242
   },
   {
    "sym": "SOL",
-   "price": 122.15,
-   "score": 0.843,
-   "weight": 0.2358,
-   "eur": 235.76,
-   "chg7d": 0.0843
+   "price": 121.41,
+   "score": 0.857,
+   "weight": 0.2348,
+   "eur": 234.82,
+   "chg7d": 0.0932
   },
   {
    "sym": "BNB",
-   "price": 777.13,
-   "score": 0.708,
+   "price": 773.59,
+   "score": 0.696,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0208
+   "chg7d": 0.0152
   },
   {
    "sym": "XRP",
-   "price": 1.5684,
-   "score": 0.49,
+   "price": 1.5276,
+   "score": 0.486,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.1229
+   "chg7d": 0.0831
   },
   {
    "sym": "TRX",
-   "price": 0.3382,
-   "score": 0.187,
+   "price": 0.3343,
+   "score": 0.082,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0006
+   "chg7d": -0.0165
   },
   {
    "sym": "DOGE",
-   "price": 0.09897,
-   "score": 0.63,
+   "price": 0.09673,
+   "score": 0.636,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.1316
+   "chg7d": 0.1027
   },
   {
    "sym": "ZEC",
-   "price": 1555.69,
-   "score": 0.745,
-   "weight": 0.1444,
-   "eur": 144.35,
-   "chg7d": -0.0027
+   "price": 1653.0,
+   "score": 0.732,
+   "weight": 0.1425,
+   "eur": 142.5,
+   "chg7d": 0.1238
   },
   {
    "sym": "ADA",
-   "price": 0.2585,
-   "score": 0.656,
+   "price": 0.254,
+   "score": 0.671,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.1514
+   "chg7d": 0.115
   },
   {
    "sym": "BCH",
-   "price": 343.3,
-   "score": 0.749,
-   "weight": 0.1484,
-   "eur": 148.37,
-   "chg7d": 0.3436
+   "price": 336.2,
+   "score": 0.754,
+   "weight": 0.1531,
+   "eur": 153.05,
+   "chg7d": 0.3189
   }
  ]
 }
