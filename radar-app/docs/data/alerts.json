@@ -226,5 +226,29 @@
   "as_of": "2026-09-29T16:00:00+00:00",
   "done": false,
   "id": "2026-09-29_ZEC_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "PUMP",
+  "from_eur": 0.0,
+  "to_eur": 150.8,
+  "delta_eur": 150.8,
+  "price": 0.005727,
+  "score": 0.768,
+  "as_of": "2026-09-30T00:00:00+00:00",
+  "done": false,
+  "id": "2026-09-30_PUMP_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "SUI",
+  "from_eur": 178.6,
+  "to_eur": 0.0,
+  "delta_eur": -178.6,
+  "price": 1.1478,
+  "score": 0.695,
+  "as_of": "2026-09-30T00:00:00+00:00",
+  "done": false,
+  "id": "2026-09-30_SUI_FECHAR"
  }
 ]
