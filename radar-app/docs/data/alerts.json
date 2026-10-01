@@ -250,5 +250,53 @@
   "as_of": "2026-09-30T00:00:00+00:00",
   "done": false,
   "id": "2026-09-30_SUI_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "AAVE",
+  "from_eur": 224.0,
+  "to_eur": 0.0,
+  "delta_eur": -224.0,
+  "price": 165.95,
+  "score": 0.693,
+  "as_of": "2026-10-01T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-01_AAVE_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "AVAX",
+  "from_eur": 192.1,
+  "to_eur": 0.0,
+  "delta_eur": -192.1,
+  "price": 11.122,
+  "score": 0.59,
+  "as_of": "2026-10-01T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-01_AVAX_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "NEAR",
+  "from_eur": 0.0,
+  "to_eur": 141.2,
+  "delta_eur": 141.2,
+  "price": 5.391,
+  "score": 0.739,
+  "as_of": "2026-10-01T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-01_NEAR_ABRIR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "SOL",
+  "from_eur": 0.0,
+  "to_eur": 276.7,
+  "delta_eur": 276.7,
+  "price": 118.7,
+  "score": 0.707,
+  "as_of": "2026-10-01T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-01_SOL_ABRIR"
  }
 ]
