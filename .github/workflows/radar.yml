@@ -32,6 +32,7 @@ jobs:
       - name: Correr o Radar
         env:
           CAPITAL: "1000"
+          PAPER_MODE: "1"
           NTFY_TOPIC: radar-newporto-f5810b16
           APP_URL: https://newporto1.github.io/radar-app/
         run: python scripts/update.py
