@@ -5,7 +5,7 @@ Uso:  python radar_run.py --capital 1000 --prev prev_state.json --out new_state.
 Dados: velas 4h da Binance spot via API pública de dados de mercado (data-api.binance.vision,
 sem chave). Se a API falhar, usa o dataset de 10 moedas (github.com/Speirsy11/crypto-dataset).
 
-Universo (desde 2026-09-30): as 40 moedas com maior volume mediano diário em USDT nos últimos
+Universo (desde 2026-09-30): só moedas com par USDT ativo no spot da Bitget (desde 2026-10-01); dessas, as 40 com maior volume mediano diário em USDT nos últimos
 30 dias (mínimo 5 M$/dia e ≥ 120 dias de histórico). Ficam de fora stablecoins, tokens
 embrulhados (WBTC…) e tokens alavancados. Moedas em carteira continuam no universo enquanto
 estiverem no top 50, para evitar entradas e saídas só por causa do volume.
@@ -132,11 +132,26 @@ def load_fallback(n_months=16):
     return {k: pd.DataFrame(v).sort_index().ffill() for k, v in cols.items()}
 
 
-def universe(D, held):
+def bitget_spot():
+    """Moedas com par USDT ativo no spot da Bitget (onde o utilizador executa). None se a API falhar."""
+    try:
+        r = requests.get("https://api.bitget.com/api/v2/spot/public/symbols", timeout=30)
+        data = r.json().get("data", [])
+        out = {d["baseCoin"].upper() for d in data
+               if d.get("quoteCoin") == "USDT" and str(d.get("status", "online")).lower() == "online"}
+        return out if len(out) > 50 else None
+    except Exception as e:  # noqa: BLE001
+        print("Aviso: lista da Bitget indisponível, sem filtro:", e)
+        return None
+
+
+def universe(D, held, allowed=None):
     qv_day = D["qvol"].resample("1D").sum(min_count=1)
     med = qv_day.iloc[-31:-1].median()  # últimos 30 dias completos
     age = D["close"].notna().sum() / 6
     ok = (med >= MIN_USD) & (age >= MIN_DAYS)
+    if allowed is not None:
+        ok &= pd.Series([c[:-4] in allowed for c in med.index], index=med.index)
     rk = med.where(ok).rank(ascending=False)
     uni = set(rk[rk <= TOP].index)
     for h in held:
@@ -147,12 +162,13 @@ def universe(D, held):
 
 
 def compute(capital, held):
-    source = "binance"
+    source, bg = "binance", None
     try:
         D = load_binance(held)
         if D["close"].shape[1] < 20:
             raise RuntimeError("poucas moedas")
-        uni, med = universe(D, held)
+        bg = bitget_spot()
+        uni, med = universe(D, held, bg)
     except Exception as e:  # noqa: BLE001
         print("Aviso: Binance indisponível, a usar dataset de 10 moedas:", e)
         source = "fallback-10"
@@ -173,7 +189,7 @@ def compute(capital, held):
         coins.append({"sym": s[:-4], "price": float(c.iloc[-1]), "score": round(float(np.nan_to_num(last_s[s])), 3),
                       "weight": round(float(last_w[s]), 4), "eur": round(float(last_w[s]) * capital, 2),
                       "chg7d": round(float(c.iloc[-1] / c.iloc[-43] - 1), 4) if len(c) > 43 else 0.0})
-    return {"version": "v3 · top 40", "source": source, "universe_size": len(uni), "universe": [u[:-4] for u in uni],
+    return {"version": "v3 · top 40", "source": source, "bitget_filter": source == "binance" and bg is not None, "universe_size": len(uni), "universe": [u[:-4] for u in uni],
             "as_of": t.isoformat(), "generated": dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
             "capital": capital, "invested": round(float(last_w.sum()), 4), "coins": coins}
 

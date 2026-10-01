@@ -9,8 +9,10 @@ import json, os, subprocess, sys, pathlib, requests
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
-STATE, ALERTS, NEW = DATA / "state.json", DATA / "alerts.json", ROOT / "radar" / "new_state.json"
+STATE, ALERTS, PERF, NEW = DATA / "state.json", DATA / "alerts.json", DATA / "perf.json", ROOT / "radar" / "new_state.json"
+FEE = 0.001  # comissão spot por lado usada na carteira modelo
 CAPITAL = os.environ.get("CAPITAL", "1000")
+PAPER = os.environ.get("PAPER_MODE", "0") == "1"  # modo simulação: alertas não são para executar
 
 
 def eur(x):
@@ -38,6 +40,34 @@ def notify(title, body, tags):
     requests.post(f"https://ntfy.sh/{topic}", data=body.encode("utf-8"), headers=headers, timeout=30)
 
 
+def update_perf(state, perf=None):
+    """Carteira modelo: segue os alertas à risca (comissão 0,1%/lado) para medir o resultado real do Radar."""
+    if perf is None:
+        perf = json.loads(PERF.read_text()) if PERF.exists() else None
+    cap = float(state["capital"])
+    if perf is None:
+        perf = {"start": state["as_of"], "capital": cap, "cash": cap, "units": {}, "last_px": {}, "fees": 0.0, "history": []}
+    if perf.get("last_as_of") == state["as_of"]:
+        return perf
+    px = dict(perf["last_px"])
+    px.update({c["sym"]: c["price"] for c in state["coins"]})
+    held_val = {s: u * px[s] for s, u in perf["units"].items() if s in px}
+    eq = perf["cash"] + sum(held_val.values())
+    target = {c["sym"]: c["weight"] * eq for c in state["coins"] if c["weight"] > 0}
+    turnover = sum(abs(target.get(s, 0) - held_val.get(s, 0)) for s in set(target) | set(held_val))
+    fee = turnover * FEE
+    eq_after = eq - fee
+    k = eq_after / eq if eq > 0 else 1
+    perf["units"] = {s: v * k / px[s] for s, v in target.items()}
+    perf["cash"] = eq_after - sum(v * k for v in target.values())
+    perf["fees"] = round(perf["fees"] + fee, 2)
+    perf["last_px"] = px
+    perf["last_as_of"] = state["as_of"]
+    perf["equity"] = round(eq_after, 2)
+    perf["history"].append({"t": state["as_of"], "equity": round(eq_after, 2), "turnover": round(turnover, 2)})
+    return perf
+
+
 def main():
     prev = STATE if STATE.exists() else None
     cmd = [sys.executable, "radar_run.py", "--capital", CAPITAL, "--out", str(NEW)] + (["--prev", str(prev)] if prev else [])
@@ -50,7 +80,9 @@ def main():
         print("Radar: sem dados novos hoje.")
         return
 
+    state["paper"] = PAPER
     STATE.write_text(json.dumps(state, indent=1, ensure_ascii=False))
+    PERF.write_text(json.dumps(update_perf(state), indent=1, ensure_ascii=False))
     hist = json.loads(ALERTS.read_text()) if ALERTS.exists() else []
     ids = {h["id"] for h in hist}
     for a in alerts:
@@ -62,7 +94,12 @@ def main():
     day = state["as_of"][:10]
     if alerts:
         body = "\n".join(line(a) for a in alerts)
-        notify(f"Radar: {len(alerts)} alerta(s)", body, "rotating_light")
+        perf = json.loads(PERF.read_text()) if PERF.exists() else None
+        if PAPER:
+            pl = f"\nCarteira modelo: {perf['equity']:.0f} € ({(perf['equity']/perf['capital']-1)*100:+.1f}%)" if perf else ""
+            notify(f"Radar SIMULAÇÃO: {len(alerts)} alerta(s) — não executar", body + pl, "test_tube")
+        else:
+            notify(f"Radar: {len(alerts)} alerta(s)", body, "rotating_light")
         print(f"Radar: {len(alerts)} alerta(s)\n{body}")
     else:
         msg = f"Sem alterações. Investido {state['invested']*100:.0f}% (dados até {day})."

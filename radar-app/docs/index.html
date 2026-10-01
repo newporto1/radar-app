@@ -60,6 +60,7 @@ details summary{cursor:pointer;color:var(--muted);font-size:14px;margin:8px 0;li
 details summary::-webkit-details-marker{display:none}
 footer{margin-top:28px;font-size:12px;color:var(--muted);text-align:center;line-height:1.6}
 footer button{background:none;border:0;color:var(--accent);font:inherit;cursor:pointer;padding:4px}
+.paper{background:#FFF4D6;color:#7A5300;padding:12px 14px;border-radius:12px;margin-bottom:16px;font-size:14px;line-height:1.45}
 .err{background:var(--sell-bg);color:var(--sell);padding:12px 14px;border-radius:12px;margin-bottom:16px;font-size:14px}
 </style>
 </head>
@@ -70,13 +71,14 @@ footer button{background:none;border:0;color:var(--accent);font:inherit;cursor:p
     <span class="pill" id="ver">—</span>
   </header>
   <div id="err"></div>
+  <div id="paper" class="paper" hidden>🧪 <b>Modo simulação.</b> Os alertas são só para acompanhar a carteira modelo. <b>Não executes</b> estas ordens.</div>
   <section class="kpis">
     <div class="kpi"><b id="k-inv">—</b><span>investido</span></div>
-    <div class="kpi"><b id="k-cap">—</b><span>capital</span></div>
+    <div class="kpi"><b id="k-cap">—</b><span id="k-cap-l">capital</span></div>
     <div class="kpi"><b id="k-n">—</b><span>moedas</span></div>
   </section>
 
-  <h2>Por fazer</h2>
+  <h2 id="todo-h">Por fazer</h2>
   <div id="todo"></div>
 
   <h2>Carteira-alvo</h2>
@@ -87,7 +89,7 @@ footer button{background:none;border:0;color:var(--accent);font:inherit;cursor:p
 
   <footer>
     <div id="gen"></div>
-    <div>Executas as ordens à mão na Binance. «Feito» fica guardado neste dispositivo.</div>
+    <div>Executas as ordens à mão no spot da Bitget (sem alavancagem). «Feito» fica guardado neste dispositivo.</div>
     <button id="reload">Atualizar</button>
   </footer>
 </main>
@@ -116,11 +118,17 @@ function alertRow(a){
     <button class="done" data-id="${esc(a.id)}">${isDone?'✓ Feito':'Feito'}</button></div>`;
 }
 
-function render(state, alerts){
+function render(state, alerts, perf){
   $('asof').textContent = 'Dados até ' + fmtDT(state.as_of);
+  $('paper').hidden = !state.paper;
+  $('todo-h').textContent = state.paper ? 'Alertas simulados' : 'Por fazer';
   $('ver').textContent = 'algoritmo ' + (state.version || 'v2');
   $('k-inv').textContent = fmtPct(state.invested);
-  $('k-cap').textContent = fmtEur(state.capital);
+  if (perf && perf.equity) {
+    const r = perf.equity / perf.capital - 1;
+    $('k-cap').innerHTML = fmtEur(perf.equity) + ` <small class="${r>=0?'up':'down'}">${r>=0?'+':'−'}${fmtPct(Math.abs(r),1)}</small>`;
+    $('k-cap-l').textContent = 'carteira modelo desde ' + fmtDay(perf.start);
+  } else { $('k-cap').textContent = fmtEur(state.capital); }
   const held = state.coins.filter(c => c.weight >= 0.005);
   $('k-n').textContent = held.length;
   $('gen').textContent = 'Calculado ' + fmtDT(state.generated);
@@ -151,11 +159,12 @@ async function load(){
   $('err').innerHTML = '';
   try {
     const t = Date.now();
-    const [s, a] = await Promise.all([
+    const [s, a, p] = await Promise.all([
       fetch('data/state.json?t=' + t, {cache:'no-store'}).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }),
-      fetch('data/alerts.json?t=' + t, {cache:'no-store'}).then(r => r.ok ? r.json() : [])
+      fetch('data/alerts.json?t=' + t, {cache:'no-store'}).then(r => r.ok ? r.json() : []),
+      fetch('data/perf.json?t=' + t, {cache:'no-store'}).then(r => r.ok ? r.json() : null).catch(() => null)
     ]);
-    cache = [s, a]; render(s, a);
+    cache = [s, a, p]; render(s, a, p);
   } catch(e) {
     $('err').innerHTML = '<div class="err">Não consegui carregar os dados. Verifica a ligação e toca em «Atualizar».</div>';
   }
