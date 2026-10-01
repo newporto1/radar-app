@@ -298,5 +298,29 @@
   "as_of": "2026-10-01T00:00:00+00:00",
   "done": false,
   "id": "2026-10-01_SOL_ABRIR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "AAVE",
+  "from_eur": 0.0,
+  "to_eur": 215.1,
+  "delta_eur": 215.1,
+  "price": 164.78,
+  "score": 0.698,
+  "as_of": "2026-10-01T04:00:00+00:00",
+  "done": false,
+  "id": "2026-10-01_AAVE_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "SOL",
+  "from_eur": 276.7,
+  "to_eur": 0.0,
+  "delta_eur": -276.7,
+  "price": 117.49,
+  "score": 0.62,
+  "as_of": "2026-10-01T04:00:00+00:00",
+  "done": false,
+  "id": "2026-10-01_SOL_FECHAR"
  }
 ]
