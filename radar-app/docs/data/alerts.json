@@ -322,5 +322,29 @@
   "as_of": "2026-10-01T04:00:00+00:00",
   "done": false,
   "id": "2026-10-01_SOL_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "ENA",
+  "from_eur": 174.9,
+  "to_eur": 0.0,
+  "delta_eur": -174.9,
+  "price": 0.2417,
+  "score": 0.638,
+  "as_of": "2026-10-02T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-02_ENA_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "SUI",
+  "from_eur": 0.0,
+  "to_eur": 171.7,
+  "delta_eur": 171.7,
+  "price": 1.1852,
+  "score": 0.679,
+  "as_of": "2026-10-02T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-02_SUI_ABRIR"
  }
 ]

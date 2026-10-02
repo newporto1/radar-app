@@ -13,7 +13,6 @@
   "BCH",
   "BNB",
   "BTC",
-  "CAKE",
   "DOGE",
   "DOT",
   "ENA",
@@ -27,6 +26,7 @@
   "LTC",
   "NEAR",
   "ONDO",
+  "OP",
   "PENGU",
   "PEPE",
   "POL",
@@ -45,90 +45,90 @@
   "XRP",
   "ZEC"
  ],
- "as_of": "2026-10-01T04:00:00+00:00",
- "generated": "2026-10-01T11:27:21Z",
+ "as_of": "2026-10-02T00:00:00+00:00",
+ "generated": "2026-10-02T06:46:19Z",
  "capital": 1000.0,
  "invested": 1.0,
  "coins": [
   {
    "sym": "LINK",
-   "price": 14.224,
-   "score": 0.732,
-   "weight": 0.2836,
-   "eur": 283.63,
-   "chg7d": 0.1396
+   "price": 14.451,
+   "score": 0.722,
+   "weight": 0.2763,
+   "eur": 276.29,
+   "chg7d": 0.0773
   },
   {
    "sym": "AAVE",
-   "price": 164.78,
-   "score": 0.698,
-   "weight": 0.2151,
-   "eur": 215.11,
-   "chg7d": 0.1756
-  },
-  {
-   "sym": "ENA",
-   "price": 0.2626,
-   "score": 0.741,
-   "weight": 0.1749,
-   "eur": 174.91,
-   "chg7d": 0.2637
-  },
-  {
-   "sym": "PUMP",
-   "price": 0.005621,
-   "score": 0.8,
-   "weight": 0.1721,
-   "eur": 172.05,
-   "chg7d": 0.3951
-  },
-  {
-   "sym": "NEAR",
-   "price": 5.288,
-   "score": 0.744,
-   "weight": 0.1543,
-   "eur": 154.29,
-   "chg7d": 0.2131
+   "price": 176.69,
+   "score": 0.796,
+   "weight": 0.2405,
+   "eur": 240.49,
+   "chg7d": 0.2134
   },
   {
    "sym": "SUI",
-   "price": 1.1447,
-   "score": 0.685,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.1806
+   "price": 1.1852,
+   "score": 0.679,
+   "weight": 0.1717,
+   "eur": 171.7,
+   "chg7d": 0.1713
+  },
+  {
+   "sym": "PUMP",
+   "price": 0.00578,
+   "score": 0.798,
+   "weight": 0.1653,
+   "eur": 165.26,
+   "chg7d": 0.4786
+  },
+  {
+   "sym": "NEAR",
+   "price": 4.923,
+   "score": 0.727,
+   "weight": 0.1463,
+   "eur": 146.26,
+   "chg7d": 0.1023
   },
   {
    "sym": "LTC",
-   "price": 66.99,
-   "score": 0.657,
+   "price": 68.84,
+   "score": 0.655,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0287
+   "chg7d": -0.0267
   },
   {
-   "sym": "TAO",
-   "price": 305.2,
-   "score": 0.63,
+   "sym": "ENA",
+   "price": 0.2417,
+   "score": 0.638,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0423
+   "chg7d": 0.0834
   },
   {
    "sym": "FET",
-   "price": 0.2356,
-   "score": 0.628,
+   "price": 0.2378,
+   "score": 0.632,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.1687
+   "chg7d": 0.0555
   },
   {
    "sym": "SOL",
-   "price": 117.49,
-   "score": 0.62,
+   "price": 121.24,
+   "score": 0.61,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0171
+   "chg7d": 0.0371
+  },
+  {
+   "sym": "BTC",
+   "price": 85512.9,
+   "score": 0.607,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0152
   }
  ],
  "paper": true
