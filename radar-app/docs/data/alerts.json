@@ -346,5 +346,53 @@
   "as_of": "2026-10-02T00:00:00+00:00",
   "done": false,
   "id": "2026-10-02_SUI_ABRIR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "BTC",
+  "from_eur": 0.0,
+  "to_eur": 266.1,
+  "delta_eur": 266.1,
+  "price": 84699.56,
+  "score": 0.619,
+  "as_of": "2026-10-03T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-03_BTC_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "LINK",
+  "from_eur": 276.3,
+  "to_eur": 0.0,
+  "delta_eur": -276.3,
+  "price": 13.943,
+  "score": 0.597,
+  "as_of": "2026-10-03T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-03_LINK_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "LTC",
+  "from_eur": 0.0,
+  "to_eur": 217.8,
+  "delta_eur": 217.8,
+  "price": 69.07,
+  "score": 0.671,
+  "as_of": "2026-10-03T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-03_LTC_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "NEAR",
+  "from_eur": 146.3,
+  "to_eur": 0.0,
+  "delta_eur": -146.3,
+  "price": 4.695,
+  "score": 0.611,
+  "as_of": "2026-10-03T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-03_NEAR_FECHAR"
  }
 ]
