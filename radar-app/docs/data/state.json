@@ -13,7 +13,6 @@
   "BCH",
   "BNB",
   "BTC",
-  "CAKE",
   "DOGE",
   "DOT",
   "ENA",
@@ -27,9 +26,9 @@
   "LTC",
   "NEAR",
   "ONDO",
+  "OP",
   "PENGU",
   "PEPE",
-  "POL",
   "PUMP",
   "RAY",
   "SOL",
@@ -43,92 +42,93 @@
   "XLM",
   "XPL",
   "XRP",
-  "ZEC"
+  "ZEC",
+  "ZRO"
  ],
- "as_of": "2026-10-03T00:00:00+00:00",
- "generated": "2026-10-03T06:53:55Z",
+ "as_of": "2026-10-04T08:00:00+00:00",
+ "generated": "2026-10-04T13:54:38Z",
  "capital": 1000.0,
  "invested": 1.0,
  "coins": [
   {
-   "sym": "BTC",
-   "price": 84699.56,
-   "score": 0.619,
-   "weight": 0.2661,
-   "eur": 266.11,
-   "chg7d": 0.0091
-  },
-  {
    "sym": "AAVE",
-   "price": 179.5,
-   "score": 0.831,
-   "weight": 0.2327,
-   "eur": 232.74,
-   "chg7d": 0.1611
+   "price": 180.01,
+   "score": 0.845,
+   "weight": 0.2777,
+   "eur": 277.65,
+   "chg7d": 0.1523
   },
   {
    "sym": "LTC",
-   "price": 69.07,
-   "score": 0.671,
-   "weight": 0.2178,
-   "eur": 217.82,
-   "chg7d": -0.0367
+   "price": 71.17,
+   "score": 0.68,
+   "weight": 0.2594,
+   "eur": 259.36,
+   "chg7d": -0.0067
   },
   {
-   "sym": "SUI",
-   "price": 1.1629,
-   "score": 0.666,
-   "weight": 0.1562,
-   "eur": 156.2,
-   "chg7d": -0.0054
+   "sym": "WLD",
+   "price": 0.5819,
+   "score": 0.74,
+   "weight": 0.1621,
+   "eur": 162.11,
+   "chg7d": 0.0064
   },
   {
    "sym": "PUMP",
-   "price": 0.00553,
-   "score": 0.701,
-   "weight": 0.1271,
-   "eur": 127.14,
-   "chg7d": 0.2701
+   "price": 0.006262,
+   "score": 0.787,
+   "weight": 0.1617,
+   "eur": 161.71,
+   "chg7d": 0.3916
+  },
+  {
+   "sym": "ZRO",
+   "price": 1.991,
+   "score": 0.766,
+   "weight": 0.1392,
+   "eur": 139.17,
+   "chg7d": 0.223
+  },
+  {
+   "sym": "SUI",
+   "price": 1.1801,
+   "score": 0.668,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0542
+  },
+  {
+   "sym": "RAY",
+   "price": 2.0755,
+   "score": 0.659,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0806
   },
   {
    "sym": "SOL",
-   "price": 119.4,
-   "score": 0.614,
+   "price": 121.23,
+   "score": 0.622,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0103
+   "chg7d": -0.0219
   },
   {
-   "sym": "NEAR",
-   "price": 4.695,
-   "score": 0.611,
+   "sym": "BTC",
+   "price": 85309.46,
+   "score": 0.619,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0383
+   "chg7d": 0.0048
   },
   {
-   "sym": "ENA",
-   "price": 0.2327,
-   "score": 0.606,
+   "sym": "BNB",
+   "price": 788.67,
+   "score": 0.599,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1426
-  },
-  {
-   "sym": "LINK",
-   "price": 13.943,
-   "score": 0.597,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0062
-  },
-  {
-   "sym": "ETH",
-   "price": 2682.04,
-   "score": 0.585,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0022
+   "chg7d": 0.0111
   }
  ],
  "paper": true
