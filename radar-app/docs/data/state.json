@@ -45,90 +45,90 @@
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-10-04T08:00:00+00:00",
- "generated": "2026-10-04T13:54:38Z",
+ "as_of": "2026-10-05T00:00:00+00:00",
+ "generated": "2026-10-05T06:53:22Z",
  "capital": 1000.0,
  "invested": 1.0,
  "coins": [
   {
    "sym": "AAVE",
-   "price": 180.01,
-   "score": 0.845,
-   "weight": 0.2777,
-   "eur": 277.65,
-   "chg7d": 0.1523
-  },
-  {
-   "sym": "LTC",
-   "price": 71.17,
-   "score": 0.68,
-   "weight": 0.2594,
-   "eur": 259.36,
-   "chg7d": -0.0067
-  },
-  {
-   "sym": "WLD",
-   "price": 0.5819,
-   "score": 0.74,
-   "weight": 0.1621,
-   "eur": 162.11,
-   "chg7d": 0.0064
-  },
-  {
-   "sym": "PUMP",
-   "price": 0.006262,
-   "score": 0.787,
-   "weight": 0.1617,
-   "eur": 161.71,
-   "chg7d": 0.3916
-  },
-  {
-   "sym": "ZRO",
-   "price": 1.991,
-   "score": 0.766,
-   "weight": 0.1392,
-   "eur": 139.17,
-   "chg7d": 0.223
+   "price": 180.54,
+   "score": 0.843,
+   "weight": 0.2941,
+   "eur": 294.12,
+   "chg7d": 0.2018
   },
   {
    "sym": "SUI",
-   "price": 1.1801,
-   "score": 0.668,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0542
+   "price": 1.2307,
+   "score": 0.755,
+   "weight": 0.2112,
+   "eur": 211.22,
+   "chg7d": -0.0044
   },
   {
-   "sym": "RAY",
-   "price": 2.0755,
-   "score": 0.659,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0806
+   "sym": "PUMP",
+   "price": 0.006373,
+   "score": 0.8,
+   "weight": 0.1731,
+   "eur": 173.06,
+   "chg7d": 0.2617
   },
   {
-   "sym": "SOL",
-   "price": 121.23,
-   "score": 0.622,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0219
+   "sym": "WLD",
+   "price": 0.5699,
+   "score": 0.744,
+   "weight": 0.1727,
+   "eur": 172.67,
+   "chg7d": 0.0822
   },
   {
-   "sym": "BTC",
-   "price": 85309.46,
-   "score": 0.619,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0048
+   "sym": "ZRO",
+   "price": 1.906,
+   "score": 0.775,
+   "weight": 0.1489,
+   "eur": 148.93,
+   "chg7d": 0.1693
   },
   {
    "sym": "BNB",
-   "price": 788.67,
-   "score": 0.599,
+   "price": 792.15,
+   "score": 0.704,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0111
+   "chg7d": 0.0279
+  },
+  {
+   "sym": "LTC",
+   "price": 70.16,
+   "score": 0.69,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0093
+  },
+  {
+   "sym": "ADA",
+   "price": 0.2688,
+   "score": 0.677,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0743
+  },
+  {
+   "sym": "RAY",
+   "price": 2.0746,
+   "score": 0.668,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0018
+  },
+  {
+   "sym": "BTC",
+   "price": 86085.03,
+   "score": 0.633,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.033
   }
  ],
  "paper": true

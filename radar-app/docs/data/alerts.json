@@ -442,5 +442,29 @@
   "as_of": "2026-10-04T08:00:00+00:00",
   "done": false,
   "id": "2026-10-04_ZRO_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "LTC",
+  "from_eur": 259.4,
+  "to_eur": 0.0,
+  "delta_eur": -259.4,
+  "price": 70.16,
+  "score": 0.69,
+  "as_of": "2026-10-05T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-05_LTC_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "SUI",
+  "from_eur": 0.0,
+  "to_eur": 211.2,
+  "delta_eur": 211.2,
+  "price": 1.2307,
+  "score": 0.755,
+  "as_of": "2026-10-05T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-05_SUI_ABRIR"
  }
 ]
