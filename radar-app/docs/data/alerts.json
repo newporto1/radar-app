@@ -490,5 +490,53 @@
   "as_of": "2026-10-06T00:00:00+00:00",
   "done": false,
   "id": "2026-10-06_SUI_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "ICP",
+  "from_eur": 237.4,
+  "to_eur": 0.0,
+  "delta_eur": -237.4,
+  "price": 3.231,
+  "score": 0.568,
+  "as_of": "2026-10-07T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-07_ICP_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "NEAR",
+  "from_eur": 0.0,
+  "to_eur": 164.2,
+  "delta_eur": 164.2,
+  "price": 4.944,
+  "score": 0.623,
+  "as_of": "2026-10-07T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-07_NEAR_ABRIR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "RAY",
+  "from_eur": 0.0,
+  "to_eur": 154.8,
+  "delta_eur": 154.8,
+  "price": 2.2096,
+  "score": 0.678,
+  "as_of": "2026-10-07T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-07_RAY_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "WLD",
+  "from_eur": 165.2,
+  "to_eur": 0.0,
+  "delta_eur": -165.2,
+  "price": 0.5177,
+  "score": 0.546,
+  "as_of": "2026-10-07T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-07_WLD_FECHAR"
  }
 ]
