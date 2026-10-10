@@ -2,7 +2,7 @@
  "version": "v3 · top 40",
  "source": "binance",
  "bitget_filter": true,
- "universe_size": 40,
+ "universe_size": 41,
  "universe": [
   "AAVE",
   "ADA",
@@ -30,6 +30,7 @@
   "PEPE",
   "POL",
   "PUMP",
+  "QNT",
   "RAY",
   "SOL",
   "SUI",
@@ -45,90 +46,90 @@
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-10-09T00:00:00+00:00",
- "generated": "2026-10-09T06:50:15Z",
+ "as_of": "2026-10-10T00:00:00+00:00",
+ "generated": "2026-10-10T06:47:50Z",
  "capital": 1000.0,
- "invested": 0.922,
+ "invested": 0.8118,
  "coins": [
   {
    "sym": "AAVE",
-   "price": 166.26,
-   "score": 0.595,
-   "weight": 0.2779,
-   "eur": 277.94,
-   "chg7d": -0.059
-  },
-  {
-   "sym": "ZRO",
-   "price": 2.066,
-   "score": 0.678,
-   "weight": 0.1731,
-   "eur": 173.05,
-   "chg7d": 0.1433
+   "price": 171.06,
+   "score": 0.577,
+   "weight": 0.274,
+   "eur": 273.97,
+   "chg7d": -0.047
   },
   {
    "sym": "RAY",
-   "price": 2.5256,
-   "score": 0.69,
-   "weight": 0.172,
-   "eur": 172.02,
-   "chg7d": 0.3164
+   "price": 2.2849,
+   "score": 0.699,
+   "weight": 0.1771,
+   "eur": 177.11,
+   "chg7d": 0.1573
+  },
+  {
+   "sym": "ZRO",
+   "price": 1.956,
+   "score": 0.572,
+   "weight": 0.1422,
+   "eur": 142.24,
+   "chg7d": 0.1164
   },
   {
    "sym": "PUMP",
-   "price": 0.005627,
-   "score": 0.575,
-   "weight": 0.1655,
-   "eur": 165.54,
-   "chg7d": -0.0265
+   "price": 0.005438,
+   "score": 0.47,
+   "weight": 0.1354,
+   "eur": 135.37,
+   "chg7d": -0.0166
+  },
+  {
+   "sym": "QNT",
+   "price": 246.9,
+   "score": 0.535,
+   "weight": 0.0831,
+   "eur": 83.1,
+   "chg7d": -0.0209
   },
   {
    "sym": "NEAR",
-   "price": 4.784,
-   "score": 0.485,
-   "weight": 0.1334,
-   "eur": 133.41,
-   "chg7d": -0.0282
+   "price": 4.954,
+   "score": 0.467,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0552
+  },
+  {
+   "sym": "DOT",
+   "price": 1.269,
+   "score": 0.43,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0959
   },
   {
    "sym": "AVAX",
-   "price": 10.291,
-   "score": 0.435,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.065
-  },
-  {
-   "sym": "SUI",
-   "price": 1.0565,
-   "score": 0.428,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.1086
-  },
-  {
-   "sym": "FET",
-   "price": 0.2205,
+   "price": 10.397,
    "score": 0.412,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0728
+   "chg7d": -0.0479
   },
   {
-   "sym": "FIL",
-   "price": 1.0834,
-   "score": 0.392,
+   "sym": "SUI",
+   "price": 1.0816,
+   "score": 0.405,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0618
+   "chg7d": -0.0699
   },
   {
-   "sym": "SOL",
-   "price": 110.44,
-   "score": 0.37,
+   "sym": "FET",
+   "price": 0.2163,
+   "score": 0.39,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0891
+   "chg7d": -0.0119
   }
  ],
  "paper": true
