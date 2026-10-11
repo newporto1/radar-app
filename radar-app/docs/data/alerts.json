@@ -562,5 +562,29 @@
   "as_of": "2026-10-10T00:00:00+00:00",
   "done": false,
   "id": "2026-10-10_QNT_ABRIR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "NEAR",
+  "from_eur": 0.0,
+  "to_eur": 138.8,
+  "delta_eur": 138.8,
+  "price": 5.193,
+  "score": 0.494,
+  "as_of": "2026-10-11T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-11_NEAR_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "PUMP",
+  "from_eur": 135.4,
+  "to_eur": 0.0,
+  "delta_eur": -135.4,
+  "price": 0.005382,
+  "score": 0.455,
+  "as_of": "2026-10-11T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-11_PUMP_FECHAR"
  }
 ]
