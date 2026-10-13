@@ -646,5 +646,77 @@
   "as_of": "2026-10-12T00:00:00+00:00",
   "done": false,
   "id": "2026-10-12_ZRO_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "AAVE",
+  "from_eur": 262.4,
+  "to_eur": 0.0,
+  "delta_eur": -262.4,
+  "price": 159.22,
+  "score": 0.462,
+  "as_of": "2026-10-13T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-13_AAVE_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "APT",
+  "from_eur": 194.8,
+  "to_eur": 0.0,
+  "delta_eur": -194.8,
+  "price": 0.8211,
+  "score": 0.398,
+  "as_of": "2026-10-13T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-13_APT_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "DOT",
+  "from_eur": 0.0,
+  "to_eur": 200.4,
+  "delta_eur": 200.4,
+  "price": 1.177,
+  "score": 0.486,
+  "as_of": "2026-10-13T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-13_DOT_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "FIL",
+  "from_eur": 176.5,
+  "to_eur": 0.0,
+  "delta_eur": -176.5,
+  "price": 1.1599,
+  "score": 0.434,
+  "as_of": "2026-10-13T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-13_FIL_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "QNT",
+  "from_eur": 0.0,
+  "to_eur": 89.4,
+  "delta_eur": 89.4,
+  "price": 228.81,
+  "score": 0.527,
+  "as_of": "2026-10-13T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-13_QNT_ABRIR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "ZRO",
+  "from_eur": 0.0,
+  "to_eur": 142.1,
+  "delta_eur": 142.1,
+  "price": 2.102,
+  "score": 0.579,
+  "as_of": "2026-10-13T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-13_ZRO_ABRIR"
  }
 ]
