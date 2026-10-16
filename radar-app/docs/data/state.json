@@ -24,7 +24,6 @@
   "INJ",
   "LINK",
   "LTC",
-  "MUBARAK",
   "NEAR",
   "ONDO",
   "PENGU",
@@ -33,6 +32,7 @@
   "QNT",
   "RAY",
   "SOL",
+  "STRK",
   "SUI",
   "TAO",
   "TRUMP",
@@ -46,90 +46,98 @@
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-10-15T00:00:00+00:00",
- "generated": "2026-10-15T07:13:30Z",
+ "as_of": "2026-10-16T00:00:00+00:00",
+ "generated": "2026-10-16T07:12:27Z",
  "capital": 1000.0,
- "invested": 0.6053,
+ "invested": 0.5718,
  "coins": [
   {
-   "sym": "SUI",
-   "price": 0.9873,
-   "score": 0.381,
-   "weight": 0.1469,
-   "eur": 146.9,
-   "chg7d": -0.1291
-  },
-  {
-   "sym": "NEAR",
-   "price": 4.659,
-   "score": 0.462,
-   "weight": 0.127,
-   "eur": 126.99,
-   "chg7d": -0.1262
+   "sym": "INJ",
+   "price": 9.249,
+   "score": 0.663,
+   "weight": 0.2031,
+   "eur": 203.13,
+   "chg7d": 0.3272
   },
   {
    "sym": "FIL",
-   "price": 1.0411,
-   "score": 0.398,
-   "weight": 0.1217,
-   "eur": 121.74,
-   "chg7d": -0.0159
+   "price": 1.1525,
+   "score": 0.374,
+   "weight": 0.1134,
+   "eur": 113.39,
+   "chg7d": 0.0638
+  },
+  {
+   "sym": "NEAR",
+   "price": 5.228,
+   "score": 0.43,
+   "weight": 0.1107,
+   "eur": 110.66,
+   "chg7d": 0.0928
   },
   {
    "sym": "ZRO",
-   "price": 1.841,
-   "score": 0.449,
-   "weight": 0.1125,
-   "eur": 112.47,
-   "chg7d": -0.1461
+   "price": 2.141,
+   "score": 0.408,
+   "weight": 0.0917,
+   "eur": 91.74,
+   "chg7d": 0.0363
+  },
+  {
+   "sym": "STRK",
+   "price": 0.08499,
+   "score": 0.363,
+   "weight": 0.0529,
+   "eur": 52.86,
+   "chg7d": 0.2666
   },
   {
    "sym": "RAY",
-   "price": 1.7895,
-   "score": 0.363,
-   "weight": 0.0972,
-   "eur": 97.23,
-   "chg7d": -0.2631
-  },
-  {
-   "sym": "AAVE",
-   "price": 150.1,
-   "score": 0.357,
+   "price": 1.8295,
+   "score": 0.345,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1331
+   "chg7d": -0.2756
   },
   {
    "sym": "APT",
-   "price": 0.7727,
-   "score": 0.356,
+   "price": 0.8461,
+   "score": 0.341,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0039
+   "chg7d": 0.0993
   },
   {
-   "sym": "INJ",
-   "price": 7.328,
-   "score": 0.344,
+   "sym": "AAVE",
+   "price": 158.48,
+   "score": 0.335,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0135
+   "chg7d": -0.0468
   },
   {
    "sym": "BTC",
-   "price": 80928.0,
-   "score": 0.326,
+   "price": 82126.01,
+   "score": 0.313,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0221
+   "chg7d": -0.0037
   },
   {
    "sym": "AVAX",
-   "price": 9.554,
-   "score": 0.305,
+   "price": 10.061,
+   "score": 0.288,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1309
+   "chg7d": -0.0223
+  },
+  {
+   "sym": "SUI",
+   "price": 1.0316,
+   "score": 0.282,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0236
   }
  ],
  "paper": true
