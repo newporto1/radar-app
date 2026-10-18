@@ -862,5 +862,29 @@
   "as_of": "2026-10-17T00:00:00+00:00",
   "done": false,
   "id": "2026-10-17_STRK_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "APT",
+  "from_eur": 114.2,
+  "to_eur": 0.0,
+  "delta_eur": -114.2,
+  "price": 0.797,
+  "score": 0.345,
+  "as_of": "2026-10-18T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-18_APT_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "U",
+  "from_eur": 0.0,
+  "to_eur": 400.0,
+  "delta_eur": 400.0,
+  "price": 1.0007,
+  "score": 0.575,
+  "as_of": "2026-10-18T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-18_U_ABRIR"
  }
 ]
