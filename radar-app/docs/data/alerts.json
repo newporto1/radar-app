@@ -886,5 +886,41 @@
   "as_of": "2026-10-18T00:00:00+00:00",
   "done": false,
   "id": "2026-10-18_U_ABRIR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "AAVE",
+  "from_eur": 0.0,
+  "to_eur": 147.5,
+  "delta_eur": 147.5,
+  "price": 151.48,
+  "score": 0.304,
+  "as_of": "2026-10-19T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-19_AAVE_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "FIL",
+  "from_eur": 118.3,
+  "to_eur": 0.0,
+  "delta_eur": -118.3,
+  "price": 1.0366,
+  "score": 0.273,
+  "as_of": "2026-10-19T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-19_FIL_FECHAR"
+ },
+ {
+  "type": "REDUZIR",
+  "sym": "INJ",
+  "from_eur": 229.3,
+  "to_eur": 105.7,
+  "delta_eur": -123.6,
+  "price": 8.557,
+  "score": 0.36,
+  "as_of": "2026-10-19T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-19_INJ_REDUZIR"
  }
 ]
