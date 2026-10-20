@@ -922,5 +922,29 @@
   "as_of": "2026-10-19T00:00:00+00:00",
   "done": false,
   "id": "2026-10-19_INJ_REDUZIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "AAVE",
+  "from_eur": 147.5,
+  "to_eur": 0.0,
+  "delta_eur": -147.5,
+  "price": 152.4,
+  "score": 0.292,
+  "as_of": "2026-10-20T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-20_AAVE_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "TIA",
+  "from_eur": 0.0,
+  "to_eur": 123.0,
+  "delta_eur": 123.0,
+  "price": 0.6208,
+  "score": 0.525,
+  "as_of": "2026-10-20T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-20_TIA_ABRIR"
  }
 ]
