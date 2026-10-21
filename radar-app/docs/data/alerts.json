@@ -946,5 +946,29 @@
   "as_of": "2026-10-20T00:00:00+00:00",
   "done": false,
   "id": "2026-10-20_TIA_ABRIR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "WLD",
+  "from_eur": 0.0,
+  "to_eur": 120.3,
+  "delta_eur": 120.3,
+  "price": 0.5916,
+  "score": 0.391,
+  "as_of": "2026-10-21T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-21_WLD_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "ZRO",
+  "from_eur": 71.2,
+  "to_eur": 0.0,
+  "delta_eur": -71.2,
+  "price": 2.042,
+  "score": 0.29,
+  "as_of": "2026-10-21T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-21_ZRO_FECHAR"
  }
 ]
