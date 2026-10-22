@@ -970,5 +970,53 @@
   "as_of": "2026-10-21T00:00:00+00:00",
   "done": false,
   "id": "2026-10-21_ZRO_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "BTC",
+  "from_eur": 0.0,
+  "to_eur": 400.0,
+  "delta_eur": 400.0,
+  "price": 82925.14,
+  "score": 0.49,
+  "as_of": "2026-10-22T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-22_BTC_ABRIR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "PEPE",
+  "from_eur": 0.0,
+  "to_eur": 138.1,
+  "delta_eur": 138.1,
+  "price": 4.53e-06,
+  "score": 0.349,
+  "as_of": "2026-10-22T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-22_PEPE_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "TIA",
+  "from_eur": 125.3,
+  "to_eur": 0.0,
+  "delta_eur": -125.3,
+  "price": 0.5807,
+  "score": 0.346,
+  "as_of": "2026-10-22T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-22_TIA_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "U",
+  "from_eur": 400.0,
+  "to_eur": 0.0,
+  "delta_eur": -400.0,
+  "price": 1.0004,
+  "score": 0.343,
+  "as_of": "2026-10-22T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-22_U_FECHAR"
  }
 ]
