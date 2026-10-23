@@ -1018,5 +1018,29 @@
   "as_of": "2026-10-22T00:00:00+00:00",
   "done": false,
   "id": "2026-10-22_U_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "BTC",
+  "from_eur": 400.0,
+  "to_eur": 0.0,
+  "delta_eur": -400.0,
+  "price": 81889.32,
+  "score": 0.287,
+  "as_of": "2026-10-23T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-23_BTC_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "TIA",
+  "from_eur": 0.0,
+  "to_eur": 80.3,
+  "delta_eur": 80.3,
+  "price": 0.5641,
+  "score": 0.323,
+  "as_of": "2026-10-23T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-23_TIA_ABRIR"
  }
 ]
