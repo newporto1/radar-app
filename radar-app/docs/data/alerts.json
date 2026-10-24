@@ -1042,5 +1042,29 @@
   "as_of": "2026-10-23T00:00:00+00:00",
   "done": false,
   "id": "2026-10-23_TIA_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "TIA",
+  "from_eur": 80.3,
+  "to_eur": 0.0,
+  "delta_eur": -80.3,
+  "price": 0.5495,
+  "score": 0.217,
+  "as_of": "2026-10-24T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-24_TIA_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "WLD",
+  "from_eur": 124.1,
+  "to_eur": 0.0,
+  "delta_eur": -124.1,
+  "price": 0.4799,
+  "score": 0.195,
+  "as_of": "2026-10-24T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-24_WLD_FECHAR"
  }
 ]
