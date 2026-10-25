@@ -45,98 +45,90 @@
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-10-24T00:00:00+00:00",
- "generated": "2026-10-24T07:10:17Z",
+ "as_of": "2026-10-25T00:00:00+00:00",
+ "generated": "2026-10-25T07:11:01Z",
  "capital": 1000.0,
- "invested": 0.3819,
+ "invested": 0.0951,
  "coins": [
   {
-   "sym": "PEPE",
-   "price": 4.58e-06,
-   "score": 0.524,
-   "weight": 0.1894,
-   "eur": 189.41,
-   "chg7d": 0.1337
+   "sym": "NEAR",
+   "price": 4.486,
+   "score": 0.318,
+   "weight": 0.0951,
+   "eur": 95.08,
+   "chg7d": -0.1103
   },
   {
    "sym": "INJ",
-   "price": 7.749,
-   "score": 0.306,
-   "weight": 0.0977,
-   "eur": 97.69,
-   "chg7d": -0.1317
-  },
-  {
-   "sym": "NEAR",
-   "price": 4.635,
-   "score": 0.325,
-   "weight": 0.0948,
-   "eur": 94.8,
-   "chg7d": -0.0867
-  },
-  {
-   "sym": "BNB",
-   "price": 739.97,
-   "score": 0.272,
+   "price": 7.683,
+   "score": 0.291,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0241
-  },
-  {
-   "sym": "ARB",
-   "price": 0.1718,
-   "score": 0.265,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0948
-  },
-  {
-   "sym": "DOT",
-   "price": 1.088,
-   "score": 0.22,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0826
-  },
-  {
-   "sym": "TIA",
-   "price": 0.5495,
-   "score": 0.217,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.2517
+   "chg7d": -0.1174
   },
   {
    "sym": "ZRO",
-   "price": 1.691,
-   "score": 0.21,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.146
-  },
-  {
-   "sym": "BTC",
-   "price": 80977.92,
-   "score": 0.198,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0073
-  },
-  {
-   "sym": "AAVE",
-   "price": 144.17,
+   "price": 1.727,
    "score": 0.197,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.077
+   "chg7d": -0.0949
+  },
+  {
+   "sym": "BTC",
+   "price": 80862.98,
+   "score": 0.192,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0134
+  },
+  {
+   "sym": "ARB",
+   "price": 0.168,
+   "score": 0.179,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0943
+  },
+  {
+   "sym": "BNB",
+   "price": 745.47,
+   "score": 0.169,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0318
   },
   {
    "sym": "WLD",
-   "price": 0.4799,
-   "score": 0.195,
+   "price": 0.4691,
+   "score": 0.169,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0925
+   "chg7d": -0.0556
+  },
+  {
+   "sym": "SOL",
+   "price": 102.43,
+   "score": 0.157,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.02
+  },
+  {
+   "sym": "PEPE",
+   "price": 4.49e-06,
+   "score": 0.157,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.1454
+  },
+  {
+   "sym": "DOT",
+   "price": 1.041,
+   "score": 0.133,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.068
   }
  ],
  "paper": true

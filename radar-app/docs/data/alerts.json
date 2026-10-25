@@ -1066,5 +1066,29 @@
   "as_of": "2026-10-24T00:00:00+00:00",
   "done": false,
   "id": "2026-10-24_WLD_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "INJ",
+  "from_eur": 97.7,
+  "to_eur": 0.0,
+  "delta_eur": -97.7,
+  "price": 7.683,
+  "score": 0.291,
+  "as_of": "2026-10-25T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-25_INJ_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "PEPE",
+  "from_eur": 189.4,
+  "to_eur": 0.0,
+  "delta_eur": -189.4,
+  "price": 4.49e-06,
+  "score": 0.157,
+  "as_of": "2026-10-25T00:00:00+00:00",
+  "done": false,
+  "id": "2026-10-25_PEPE_FECHAR"
  }
 ]
