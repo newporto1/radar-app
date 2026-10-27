@@ -1090,5 +1090,17 @@
   "as_of": "2026-10-25T00:00:00+00:00",
   "done": false,
   "id": "2026-10-25_PEPE_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "NEAR",
+  "from_eur": 93.8,
+  "to_eur": 0.0,
+  "delta_eur": -93.8,
+  "price": 4.482,
+  "score": 0.299,
+  "as_of": "2026-10-27T08:00:00+00:00",
+  "done": false,
+  "id": "2026-10-27_NEAR_FECHAR"
  }
 ]
