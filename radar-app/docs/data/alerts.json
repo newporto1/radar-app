@@ -1114,5 +1114,17 @@
   "as_of": "2026-10-28T08:00:00+00:00",
   "done": false,
   "id": "2026-10-28_BNB_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "BNB",
+  "from_eur": 400.0,
+  "to_eur": 0.0,
+  "delta_eur": -400.0,
+  "price": 739.84,
+  "score": 0.201,
+  "as_of": "2026-10-29T08:00:00+00:00",
+  "done": false,
+  "id": "2026-10-29_BNB_FECHAR"
  }
 ]
