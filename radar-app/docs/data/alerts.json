@@ -1126,5 +1126,17 @@
   "as_of": "2026-10-29T08:00:00+00:00",
   "done": false,
   "id": "2026-10-29_BNB_FECHAR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "PEPE",
+  "from_eur": 0.0,
+  "to_eur": 89.9,
+  "delta_eur": 89.9,
+  "price": 5.29e-06,
+  "score": 0.332,
+  "as_of": "2026-10-30T08:00:00+00:00",
+  "done": false,
+  "id": "2026-10-30_PEPE_ABRIR"
  }
 ]
