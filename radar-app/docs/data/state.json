@@ -14,18 +14,18 @@
   "BNB",
   "BTC",
   "DOGE",
-  "DOT",
   "ENA",
   "ETH",
   "FET",
   "FIL",
+  "GRAM",
   "HBAR",
-  "ICP",
   "INJ",
   "LINK",
   "LTC",
   "NEAR",
   "ONDO",
+  "OP",
   "PENGU",
   "PEPE",
   "PUMP",
@@ -45,90 +45,90 @@
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-10-30T08:00:00+00:00",
- "generated": "2026-10-30T13:17:23Z",
+ "as_of": "2026-10-31T08:00:00+00:00",
+ "generated": "2026-10-31T12:53:26Z",
  "capital": 1000.0,
- "invested": 0.0899,
+ "invested": 0.0939,
  "coins": [
   {
    "sym": "PEPE",
-   "price": 5.29e-06,
-   "score": 0.332,
-   "weight": 0.0899,
-   "eur": 89.87,
-   "chg7d": 0.0434
+   "price": 5.08e-06,
+   "score": 0.342,
+   "weight": 0.0939,
+   "eur": 93.89,
+   "chg7d": 0.1572
   },
   {
    "sym": "NEAR",
-   "price": 4.316,
-   "score": 0.279,
+   "price": 4.343,
+   "score": 0.276,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1249
+   "chg7d": -0.0349
   },
   {
    "sym": "INJ",
-   "price": 7.198,
-   "score": 0.263,
+   "price": 7.083,
+   "score": 0.251,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0978
+   "chg7d": -0.0773
   },
   {
    "sym": "BTC",
-   "price": 77382.01,
-   "score": 0.159,
+   "price": 77618.97,
+   "score": 0.152,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0532
+   "chg7d": -0.037
   },
   {
    "sym": "BNB",
-   "price": 700.11,
-   "score": 0.14,
+   "price": 705.34,
+   "score": 0.134,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0636
-  },
-  {
-   "sym": "ZEC",
-   "price": 1239.68,
-   "score": 0.118,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.008
+   "chg7d": -0.0361
   },
   {
    "sym": "QNT",
-   "price": 192.9,
-   "score": 0.112,
+   "price": 196.42,
+   "score": 0.109,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0536
+   "chg7d": 0.1008
+  },
+  {
+   "sym": "ZEC",
+   "price": 1281.69,
+   "score": 0.108,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.1088
+  },
+  {
+   "sym": "OP",
+   "price": 0.1125,
+   "score": 0.097,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0036
   },
   {
    "sym": "TIA",
-   "price": 0.4641,
-   "score": 0.091,
+   "price": 0.4728,
+   "score": 0.078,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1526
+   "chg7d": -0.1433
   },
   {
    "sym": "ZRO",
-   "price": 1.714,
-   "score": 0.075,
+   "price": 1.735,
+   "score": 0.073,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0403
-  },
-  {
-   "sym": "ARB",
-   "price": 0.1643,
-   "score": 0.07,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0898
+   "chg7d": 0.0285
   }
  ],
  "paper": true
