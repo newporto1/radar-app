@@ -20,12 +20,12 @@
   "FIL",
   "GRAM",
   "HBAR",
+  "ICP",
   "INJ",
   "LINK",
   "LTC",
   "NEAR",
   "ONDO",
-  "OP",
   "PENGU",
   "PEPE",
   "PUMP",
@@ -45,90 +45,90 @@
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-10-31T08:00:00+00:00",
- "generated": "2026-10-31T12:53:26Z",
+ "as_of": "2026-11-01T08:00:00+00:00",
+ "generated": "2026-11-01T13:42:19Z",
  "capital": 1000.0,
- "invested": 0.0939,
+ "invested": 0.0966,
  "coins": [
   {
    "sym": "PEPE",
-   "price": 5.08e-06,
+   "price": 4.91e-06,
    "score": 0.342,
-   "weight": 0.0939,
-   "eur": 93.89,
-   "chg7d": 0.1572
+   "weight": 0.0966,
+   "eur": 96.64,
+   "chg7d": 0.0984
   },
   {
    "sym": "NEAR",
-   "price": 4.343,
-   "score": 0.276,
+   "price": 4.38,
+   "score": 0.274,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0349
+   "chg7d": -0.023
   },
   {
    "sym": "INJ",
-   "price": 7.083,
-   "score": 0.251,
+   "price": 7.244,
+   "score": 0.245,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0773
-  },
-  {
-   "sym": "BTC",
-   "price": 77618.97,
-   "score": 0.152,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.037
-  },
-  {
-   "sym": "BNB",
-   "price": 705.34,
-   "score": 0.134,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0361
-  },
-  {
-   "sym": "QNT",
-   "price": 196.42,
-   "score": 0.109,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.1008
-  },
-  {
-   "sym": "ZEC",
-   "price": 1281.69,
-   "score": 0.108,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.1088
-  },
-  {
-   "sym": "OP",
-   "price": 0.1125,
-   "score": 0.097,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0036
-  },
-  {
-   "sym": "TIA",
-   "price": 0.4728,
-   "score": 0.078,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.1433
+   "chg7d": -0.0542
   },
   {
    "sym": "ZRO",
-   "price": 1.735,
-   "score": 0.073,
+   "price": 1.863,
+   "score": 0.172,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0285
+   "chg7d": 0.0725
+  },
+  {
+   "sym": "BTC",
+   "price": 77962.62,
+   "score": 0.146,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0325
+  },
+  {
+   "sym": "BNB",
+   "price": 713.56,
+   "score": 0.129,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0403
+  },
+  {
+   "sym": "QNT",
+   "price": 200.47,
+   "score": 0.119,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0961
+  },
+  {
+   "sym": "ZEC",
+   "price": 1242.16,
+   "score": 0.1,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0191
+  },
+  {
+   "sym": "TIA",
+   "price": 0.4813,
+   "score": 0.072,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0939
+  },
+  {
+   "sym": "UNI",
+   "price": 7.217,
+   "score": 0.068,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0673
   }
  ],
  "paper": true
