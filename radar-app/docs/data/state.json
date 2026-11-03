@@ -14,13 +14,13 @@
   "BNB",
   "BTC",
   "DOGE",
-  "DOT",
   "ENA",
   "ETH",
   "FET",
   "FIL",
   "GRAM",
   "HBAR",
+  "ICP",
   "INJ",
   "LINK",
   "LTC",
@@ -45,90 +45,90 @@
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-11-02T12:00:00+00:00",
- "generated": "2026-11-02T16:23:21Z",
+ "as_of": "2026-11-03T08:00:00+00:00",
+ "generated": "2026-11-03T14:32:19Z",
  "capital": 1000.0,
- "invested": 0.0919,
+ "invested": 0.0,
  "coins": [
   {
    "sym": "PEPE",
-   "price": 4.68e-06,
-   "score": 0.318,
-   "weight": 0.0919,
-   "eur": 91.94,
-   "chg7d": 0.0709
+   "price": 4.79e-06,
+   "score": 0.294,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.1192
   },
   {
    "sym": "NEAR",
-   "price": 4.014,
-   "score": 0.276,
+   "price": 3.872,
+   "score": 0.19,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1232
+   "chg7d": -0.1361
   },
   {
    "sym": "ZRO",
-   "price": 1.768,
-   "score": 0.171,
+   "price": 1.776,
+   "score": 0.154,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0357
+   "chg7d": 0.0783
   },
   {
    "sym": "INJ",
-   "price": 7.017,
-   "score": 0.16,
+   "price": 7.277,
+   "score": 0.154,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1159
+   "chg7d": -0.0685
   },
   {
    "sym": "BTC",
-   "price": 77519.24,
-   "score": 0.141,
+   "price": 77108.37,
+   "score": 0.135,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0362
-  },
-  {
-   "sym": "BNB",
-   "price": 702.07,
-   "score": 0.125,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0572
+   "chg7d": -0.0351
   },
   {
    "sym": "QNT",
-   "price": 202.58,
-   "score": 0.122,
+   "price": 196.72,
+   "score": 0.114,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0374
+   "chg7d": -0.0253
   },
   {
    "sym": "ZEC",
-   "price": 1254.67,
-   "score": 0.092,
+   "price": 1182.07,
+   "score": 0.077,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0051
-  },
-  {
-   "sym": "UNI",
-   "price": 7.202,
-   "score": 0.076,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0124
+   "chg7d": -0.054
   },
   {
    "sym": "TIA",
-   "price": 0.4572,
-   "score": 0.07,
+   "price": 0.4427,
+   "score": 0.066,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.148
+   "chg7d": -0.1555
+  },
+  {
+   "sym": "UNI",
+   "price": 7.189,
+   "score": 0.065,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0238
+  },
+  {
+   "sym": "ENA",
+   "price": 0.1715,
+   "score": 0.058,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.1468
   }
  ],
  "paper": true

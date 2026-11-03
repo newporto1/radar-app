@@ -1138,5 +1138,17 @@
   "as_of": "2026-10-30T08:00:00+00:00",
   "done": false,
   "id": "2026-10-30_PEPE_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "PEPE",
+  "from_eur": 91.9,
+  "to_eur": 0.0,
+  "delta_eur": -91.9,
+  "price": 4.79e-06,
+  "score": 0.294,
+  "as_of": "2026-11-03T08:00:00+00:00",
+  "done": false,
+  "id": "2026-11-03_PEPE_FECHAR"
  }
 ]
