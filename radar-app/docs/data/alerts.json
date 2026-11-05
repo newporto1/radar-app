@@ -1162,5 +1162,17 @@
   "as_of": "2026-11-04T08:00:00+00:00",
   "done": false,
   "id": "2026-11-04_PEPE_ABRIR"
+ },
+ {
+  "type": "ABRIR",
+  "sym": "INJ",
+  "from_eur": 0.0,
+  "to_eur": 119.7,
+  "delta_eur": 119.7,
+  "price": 8.319,
+  "score": 0.345,
+  "as_of": "2026-11-05T08:00:00+00:00",
+  "done": false,
+  "id": "2026-11-05_INJ_ABRIR"
  }
 ]

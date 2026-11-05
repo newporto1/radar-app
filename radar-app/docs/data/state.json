@@ -21,12 +21,12 @@
   "FIL",
   "GRAM",
   "HBAR",
-  "ICP",
   "INJ",
   "LINK",
   "LTC",
   "NEAR",
   "ONDO",
+  "PENGU",
   "PEPE",
   "PUMP",
   "QNT",
@@ -45,90 +45,90 @@
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-11-04T08:00:00+00:00",
- "generated": "2026-11-04T14:46:46Z",
+ "as_of": "2026-11-05T08:00:00+00:00",
+ "generated": "2026-11-05T14:52:25Z",
  "capital": 1000.0,
- "invested": 0.0912,
+ "invested": 0.216,
  "coins": [
   {
-   "sym": "PEPE",
-   "price": 5.03e-06,
-   "score": 0.303,
-   "weight": 0.0912,
-   "eur": 91.22,
-   "chg7d": 0.008
-  },
-  {
    "sym": "INJ",
-   "price": 7.69,
-   "score": 0.23,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0321
+   "price": 8.319,
+   "score": 0.345,
+   "weight": 0.1197,
+   "eur": 119.69,
+   "chg7d": 0.0526
   },
   {
-   "sym": "ZRO",
-   "price": 1.891,
-   "score": 0.178,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0937
+   "sym": "PEPE",
+   "price": 4.96e-06,
+   "score": 0.315,
+   "weight": 0.0963,
+   "eur": 96.31,
+   "chg7d": 0.0081
   },
   {
    "sym": "UNI",
-   "price": 7.439,
-   "score": 0.16,
+   "price": 7.431,
+   "score": 0.279,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0411
-  },
-  {
-   "sym": "ZEC",
-   "price": 1298.68,
-   "score": 0.151,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0026
-  },
-  {
-   "sym": "BTC",
-   "price": 78477.25,
-   "score": 0.127,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0352
-  },
-  {
-   "sym": "QNT",
-   "price": 201.71,
-   "score": 0.108,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.007
+   "chg7d": 0.0344
   },
   {
    "sym": "ETH",
-   "price": 2327.96,
-   "score": 0.108,
+   "price": 2421.0,
+   "score": 0.24,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0143
+   "chg7d": 0.0412
+  },
+  {
+   "sym": "BTC",
+   "price": 80390.01,
+   "score": 0.233,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0027
+  },
+  {
+   "sym": "ZEC",
+   "price": 1319.53,
+   "score": 0.188,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0355
+  },
+  {
+   "sym": "QNT",
+   "price": 202.35,
+   "score": 0.13,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0438
+  },
+  {
+   "sym": "XRP",
+   "price": 1.3185,
+   "score": 0.118,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0209
+  },
+  {
+   "sym": "SUI",
+   "price": 0.9242,
+   "score": 0.115,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.002
   },
   {
    "sym": "NEAR",
-   "price": 4.083,
-   "score": 0.094,
+   "price": 4.013,
+   "score": 0.091,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1246
-  },
-  {
-   "sym": "TIA",
-   "price": 0.4506,
-   "score": 0.057,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.1606
+   "chg7d": -0.0921
   }
  ],
  "paper": true
