@@ -45,90 +45,90 @@
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-11-05T08:00:00+00:00",
- "generated": "2026-11-05T14:52:25Z",
+ "as_of": "2026-11-06T08:00:00+00:00",
+ "generated": "2026-11-06T14:29:50Z",
  "capital": 1000.0,
- "invested": 0.216,
+ "invested": 0.2195,
  "coins": [
   {
    "sym": "INJ",
-   "price": 8.319,
-   "score": 0.345,
-   "weight": 0.1197,
-   "eur": 119.69,
-   "chg7d": 0.0526
+   "price": 8.173,
+   "score": 0.373,
+   "weight": 0.1273,
+   "eur": 127.32,
+   "chg7d": 0.1355
   },
   {
    "sym": "PEPE",
-   "price": 4.96e-06,
-   "score": 0.315,
-   "weight": 0.0963,
-   "eur": 96.31,
-   "chg7d": 0.0081
-  },
-  {
-   "sym": "UNI",
-   "price": 7.431,
-   "score": 0.279,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0344
-  },
-  {
-   "sym": "ETH",
-   "price": 2421.0,
-   "score": 0.24,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0412
-  },
-  {
-   "sym": "BTC",
-   "price": 80390.01,
-   "score": 0.233,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0027
+   "price": 5.07e-06,
+   "score": 0.301,
+   "weight": 0.0922,
+   "eur": 92.21,
+   "chg7d": -0.0416
   },
   {
    "sym": "ZEC",
-   "price": 1319.53,
-   "score": 0.188,
+   "price": 1291.3,
+   "score": 0.184,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0355
+   "chg7d": 0.0416
+  },
+  {
+   "sym": "BTC",
+   "price": 76147.73,
+   "score": 0.117,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.016
   },
   {
    "sym": "QNT",
-   "price": 202.35,
-   "score": 0.13,
+   "price": 189.58,
+   "score": 0.113,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0438
-  },
-  {
-   "sym": "XRP",
-   "price": 1.3185,
-   "score": 0.118,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0209
-  },
-  {
-   "sym": "SUI",
-   "price": 0.9242,
-   "score": 0.115,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.002
+   "chg7d": -0.0172
   },
   {
    "sym": "NEAR",
-   "price": 4.013,
-   "score": 0.091,
+   "price": 3.737,
+   "score": 0.086,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0921
+   "chg7d": -0.1342
+  },
+  {
+   "sym": "ZRO",
+   "price": 1.627,
+   "score": 0.069,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0508
+  },
+  {
+   "sym": "UNI",
+   "price": 6.996,
+   "score": 0.057,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0161
+  },
+  {
+   "sym": "TIA",
+   "price": 0.4332,
+   "score": 0.043,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0666
+  },
+  {
+   "sym": "ENA",
+   "price": 0.1662,
+   "score": 0.041,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.1045
   }
  ],
  "paper": true
