@@ -34,101 +34,101 @@
   "STRK",
   "SUI",
   "TAO",
-  "TIA",
   "TRUMP",
   "TRX",
   "UNI",
   "U",
   "WLD",
   "XLM",
+  "XPL",
   "XRP",
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-11-08T08:00:00+00:00",
- "generated": "2026-11-08T13:44:01Z",
+ "as_of": "2026-11-09T12:00:00+00:00",
+ "generated": "2026-11-09T16:43:50Z",
  "capital": 1000.0,
- "invested": 0.2416,
+ "invested": 0.2127,
  "coins": [
   {
    "sym": "INJ",
-   "price": 8.17,
-   "score": 0.399,
-   "weight": 0.1436,
-   "eur": 143.58,
-   "chg7d": 0.1278
+   "price": 8.179,
+   "score": 0.302,
+   "weight": 0.1109,
+   "eur": 110.93,
+   "chg7d": 0.1656
   },
   {
    "sym": "PEPE",
-   "price": 4.99e-06,
-   "score": 0.301,
-   "weight": 0.098,
-   "eur": 97.98,
-   "chg7d": 0.0163
-  },
-  {
-   "sym": "ZEC",
-   "price": 1280.31,
-   "score": 0.189,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0307
-  },
-  {
-   "sym": "BTC",
-   "price": 75981.09,
-   "score": 0.114,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0254
-  },
-  {
-   "sym": "QNT",
-   "price": 200.0,
-   "score": 0.11,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0023
-  },
-  {
-   "sym": "NEAR",
-   "price": 3.718,
-   "score": 0.075,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.1511
-  },
-  {
-   "sym": "ZRO",
-   "price": 1.625,
-   "score": 0.065,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.1278
+   "price": 5.32e-06,
+   "score": 0.313,
+   "weight": 0.1018,
+   "eur": 101.78,
+   "chg7d": 0.1368
   },
   {
    "sym": "ARB",
-   "price": 0.1701,
-   "score": 0.06,
+   "price": 0.1841,
+   "score": 0.242,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0385
+   "chg7d": 0.1557
   },
   {
-   "sym": "UNI",
-   "price": 7.038,
-   "score": 0.055,
+   "sym": "QNT",
+   "price": 200.1,
+   "score": 0.114,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0248
+   "chg7d": -0.0122
+  },
+  {
+   "sym": "ZEC",
+   "price": 1226.2,
+   "score": 0.079,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0227
   },
   {
    "sym": "U",
-   "price": 1.0006,
-   "score": 0.043,
+   "price": 1.0007,
+   "score": 0.076,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0005
+   "chg7d": 0.0011
+  },
+  {
+   "sym": "NEAR",
+   "price": 3.675,
+   "score": 0.066,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0845
+  },
+  {
+   "sym": "ZRO",
+   "price": 1.523,
+   "score": 0.061,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.1386
+  },
+  {
+   "sym": "UNI",
+   "price": 6.988,
+   "score": 0.051,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.0297
+  },
+  {
+   "sym": "ENA",
+   "price": 0.1574,
+   "score": 0.036,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.1011
   }
  ],
  "paper": true
