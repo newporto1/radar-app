@@ -1174,5 +1174,17 @@
   "as_of": "2026-11-05T08:00:00+00:00",
   "done": false,
   "id": "2026-11-05_INJ_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "INJ",
+  "from_eur": 110.9,
+  "to_eur": 0.0,
+  "delta_eur": -110.9,
+  "price": 8.013,
+  "score": 0.297,
+  "as_of": "2026-11-10T08:00:00+00:00",
+  "done": false,
+  "id": "2026-11-10_INJ_FECHAR"
  }
 ]
