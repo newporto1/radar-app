@@ -1186,5 +1186,17 @@
   "as_of": "2026-11-10T08:00:00+00:00",
   "done": false,
   "id": "2026-11-10_INJ_FECHAR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "PEPE",
+  "from_eur": 114.4,
+  "to_eur": 0.0,
+  "delta_eur": -114.4,
+  "price": 4.46e-06,
+  "score": 0.207,
+  "as_of": "2026-11-12T08:00:00+00:00",
+  "done": false,
+  "id": "2026-11-12_PEPE_FECHAR"
  }
 ]
