@@ -2,19 +2,18 @@
  "version": "v3 · top 40",
  "source": "binance",
  "bitget_filter": true,
- "universe_size": 40,
+ "universe_size": 39,
  "universe": [
   "AAVE",
   "ADA",
-  "APT",
   "ARB",
   "ASTER",
   "AVAX",
   "BCH",
+  "BMT",
   "BNB",
   "BTC",
   "DOGE",
-  "DOT",
   "ENA",
   "ETH",
   "FET",
@@ -45,90 +44,90 @@
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-11-13T08:00:00+00:00",
- "generated": "2026-11-13T14:46:54Z",
+ "as_of": "2026-11-14T08:00:00+00:00",
+ "generated": "2026-11-14T13:44:40Z",
  "capital": 1000.0,
  "invested": 0.0,
  "coins": [
   {
    "sym": "PEPE",
-   "price": 4.5e-06,
-   "score": 0.184,
+   "price": 4.31e-06,
+   "score": 0.172,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1124
+   "chg7d": -0.1204
   },
   {
    "sym": "INJ",
-   "price": 7.723,
-   "score": 0.155,
+   "price": 7.972,
+   "score": 0.157,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0551
+   "chg7d": -0.0267
   },
   {
    "sym": "QNT",
-   "price": 161.8,
-   "score": 0.102,
+   "price": 160.07,
+   "score": 0.096,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1465
-  },
-  {
-   "sym": "U",
-   "price": 1.0004,
-   "score": 0.056,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0
+   "chg7d": -0.1911
   },
   {
    "sym": "NEAR",
-   "price": 3.554,
-   "score": 0.053,
+   "price": 3.333,
+   "score": 0.054,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.049
+   "chg7d": -0.1002
   },
   {
    "sym": "ZEC",
-   "price": 957.44,
-   "score": 0.052,
+   "price": 903.4,
+   "score": 0.051,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.2585
+   "chg7d": -0.3
   },
   {
    "sym": "UNI",
-   "price": 5.816,
-   "score": 0.046,
+   "price": 5.502,
+   "score": 0.044,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1687
+   "chg7d": -0.2195
   },
   {
    "sym": "ZRO",
-   "price": 1.602,
+   "price": 1.545,
    "score": 0.043,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0154
+   "chg7d": -0.0504
   },
   {
    "sym": "ARB",
-   "price": 0.1475,
-   "score": 0.038,
+   "price": 0.1418,
+   "score": 0.037,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1225
+   "chg7d": -0.1509
   },
   {
-   "sym": "GRAM",
-   "price": 1.152,
-   "score": 0.033,
+   "sym": "U",
+   "price": 1.0003,
+   "score": 0.036,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0492
+   "chg7d": 0.0001
+  },
+  {
+   "sym": "BMT",
+   "price": 0.02309,
+   "score": 0.03,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0181
   }
  ],
  "paper": true
