@@ -2,7 +2,7 @@
  "version": "v3 · top 40",
  "source": "binance",
  "bitget_filter": true,
- "universe_size": 36,
+ "universe_size": 37,
  "universe": [
   "AAVE",
   "ADA",
@@ -28,6 +28,7 @@
   "PUMP",
   "QNT",
   "SOL",
+  "STRK",
   "SUI",
   "TAO",
   "TRUMP",
@@ -41,90 +42,90 @@
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-11-17T12:00:00+00:00",
- "generated": "2026-11-17T16:20:05Z",
+ "as_of": "2026-11-18T08:00:00+00:00",
+ "generated": "2026-11-18T15:53:59Z",
  "capital": 1000.0,
  "invested": 0.0,
  "coins": [
   {
    "sym": "QNT",
-   "price": 153.35,
-   "score": 0.074,
+   "price": 156.44,
+   "score": 0.068,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1514
+   "chg7d": -0.1221
   },
   {
    "sym": "PEPE",
-   "price": 3.73e-06,
-   "score": 0.056,
+   "price": 3.75e-06,
+   "score": 0.048,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.2909
+   "chg7d": -0.2485
   },
   {
    "sym": "INJ",
-   "price": 7.302,
-   "score": 0.05,
+   "price": 7.312,
+   "score": 0.048,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0559
+   "chg7d": -0.0763
   },
   {
    "sym": "NEAR",
-   "price": 3.173,
-   "score": 0.046,
+   "price": 3.35,
+   "score": 0.041,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.109
+   "chg7d": -0.1154
   },
   {
    "sym": "ZEC",
-   "price": 939.63,
-   "score": 0.038,
+   "price": 939.69,
+   "score": 0.035,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1411
+   "chg7d": -0.0503
   },
   {
    "sym": "ZRO",
-   "price": 1.444,
+   "price": 1.367,
    "score": 0.031,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0328
+   "chg7d": -0.1271
   },
   {
    "sym": "UNI",
-   "price": 5.312,
-   "score": 0.03,
+   "price": 5.243,
+   "score": 0.027,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.2227
+   "chg7d": -0.1898
   },
   {
    "sym": "ARB",
-   "price": 0.1305,
-   "score": 0.029,
+   "price": 0.1293,
+   "score": 0.027,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1914
+   "chg7d": -0.1979
   },
   {
    "sym": "U",
-   "price": 1.0004,
-   "score": 0.017,
+   "price": 1.0001,
+   "score": 0.011,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.0002
+   "chg7d": -0.0004
   },
   {
    "sym": "PUMP",
-   "price": 0.002722,
-   "score": 0.013,
+   "price": 0.002711,
+   "score": 0.009,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1978
+   "chg7d": -0.2474
   }
  ],
  "paper": true
