@@ -1210,5 +1210,17 @@
   "as_of": "2026-11-22T08:00:00+00:00",
   "done": false,
   "id": "2026-11-22_U_ABRIR"
+ },
+ {
+  "type": "FECHAR",
+  "sym": "U",
+  "from_eur": 400.0,
+  "to_eur": 0.0,
+  "delta_eur": -400.0,
+  "price": 1.0002,
+  "score": 0.07,
+  "as_of": "2026-11-25T12:00:00+00:00",
+  "done": false,
+  "id": "2026-11-25_U_FECHAR"
  }
 ]

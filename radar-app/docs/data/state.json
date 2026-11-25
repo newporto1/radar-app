@@ -2,7 +2,7 @@
  "version": "v3 · top 40",
  "source": "binance",
  "bitget_filter": true,
- "universe_size": 35,
+ "universe_size": 36,
  "universe": [
   "AAVE",
   "ADA",
@@ -34,96 +34,97 @@
   "UNI",
   "U",
   "WLD",
+  "WLFI",
   "XLM",
   "XPL",
   "XRP",
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-11-24T12:00:00+00:00",
- "generated": "2026-11-24T18:01:23Z",
+ "as_of": "2026-11-25T12:00:00+00:00",
+ "generated": "2026-11-25T17:30:17Z",
  "capital": 1000.0,
- "invested": 0.4,
+ "invested": 0.0,
  "coins": [
   {
    "sym": "U",
-   "price": 1.0012,
-   "score": 0.398,
-   "weight": 0.4,
-   "eur": 400.0,
-   "chg7d": 0.0008
+   "price": 1.0002,
+   "score": 0.07,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0001
   },
   {
    "sym": "QNT",
-   "price": 144.76,
+   "price": 139.15,
    "score": 0.049,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.056
+   "chg7d": -0.0827
   },
   {
    "sym": "INJ",
-   "price": 5.908,
-   "score": 0.028,
+   "price": 5.681,
+   "score": 0.026,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1909
+   "chg7d": -0.1869
   },
   {
    "sym": "NEAR",
-   "price": 2.819,
-   "score": 0.024,
+   "price": 2.741,
+   "score": 0.021,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1116
+   "chg7d": -0.1464
   },
   {
    "sym": "PEPE",
-   "price": 3.34e-06,
-   "score": 0.019,
+   "price": 3.31e-06,
+   "score": 0.016,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1046
+   "chg7d": -0.1078
   },
   {
    "sym": "ZRO",
-   "price": 1.021,
-   "score": 0.013,
+   "price": 0.957,
+   "score": 0.008,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.2929
+   "chg7d": -0.2599
   },
   {
    "sym": "ZEC",
-   "price": 712.61,
-   "score": 0.012,
+   "price": 692.45,
+   "score": 0.007,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.2416
+   "chg7d": -0.2538
   },
   {
-   "sym": "TRX",
-   "price": 0.3073,
-   "score": 0.002,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": -0.0016
-  },
-  {
-   "sym": "AAVE",
-   "price": 93.58,
+   "sym": "ASTER",
+   "price": 0.4822,
    "score": 0.0,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1715
+   "chg7d": -0.1316
   },
   {
    "sym": "ARB",
-   "price": 0.1112,
+   "price": 0.1068,
    "score": 0.0,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": -0.1479
+   "chg7d": -0.161
+  },
+  {
+   "sym": "AAVE",
+   "price": 91.07,
+   "score": 0.0,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": -0.1559
   }
  ],
  "paper": true
