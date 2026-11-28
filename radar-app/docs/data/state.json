@@ -2,7 +2,7 @@
  "version": "v3 · top 40",
  "source": "binance",
  "bitget_filter": true,
- "universe_size": 36,
+ "universe_size": 35,
  "universe": [
   "AAVE",
   "ADA",
@@ -36,95 +36,94 @@
   "WLD",
   "WLFI",
   "XLM",
-  "XPL",
   "XRP",
   "ZEC",
   "ZRO"
  ],
- "as_of": "2026-11-27T12:00:00+00:00",
- "generated": "2026-11-27T16:54:16Z",
+ "as_of": "2026-11-28T08:00:00+00:00",
+ "generated": "2026-11-28T15:45:20Z",
  "capital": 1000.0,
  "invested": 0.0,
  "coins": [
   {
    "sym": "LINK",
-   "price": 9.324,
-   "score": 0.203,
+   "price": 9.144,
+   "score": 0.194,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.1176
-  },
-  {
-   "sym": "LTC",
-   "price": 43.7,
-   "score": 0.12,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0941
+   "chg7d": 0.0814
   },
   {
    "sym": "FET",
-   "price": 0.1264,
-   "score": 0.115,
+   "price": 0.123,
+   "score": 0.13,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.1068
+   "chg7d": 0.1274
+  },
+  {
+   "sym": "LTC",
+   "price": 44.09,
+   "score": 0.126,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.1288
   },
   {
    "sym": "BCH",
-   "price": 204.9,
-   "score": 0.11,
+   "price": 206.4,
+   "score": 0.104,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0705
+   "chg7d": 0.075
   },
   {
    "sym": "QNT",
-   "price": 144.84,
+   "price": 141.48,
    "score": 0.044,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0592
+   "chg7d": 0.051
   },
   {
    "sym": "U",
-   "price": 1.0005,
-   "score": 0.037,
+   "price": 1.0001,
+   "score": 0.03,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0001
-  },
-  {
-   "sym": "XPL",
-   "price": 0.04664,
-   "score": 0.023,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.054
+   "chg7d": -0.0007
   },
   {
    "sym": "INJ",
-   "price": 6.31,
+   "price": 6.178,
    "score": 0.019,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.027
+   "chg7d": 0.0183
   },
   {
    "sym": "NEAR",
-   "price": 3.007,
-   "score": 0.017,
-   "weight": 0.0,
-   "eur": 0.0,
-   "chg7d": 0.0558
-  },
-  {
-   "sym": "HBAR",
-   "price": 0.05398,
+   "price": 2.987,
    "score": 0.012,
    "weight": 0.0,
    "eur": 0.0,
-   "chg7d": 0.0529
+   "chg7d": 0.0695
+  },
+  {
+   "sym": "PEPE",
+   "price": 3.44e-06,
+   "score": 0.009,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0238
+  },
+  {
+   "sym": "DOGE",
+   "price": 0.05674,
+   "score": 0.009,
+   "weight": 0.0,
+   "eur": 0.0,
+   "chg7d": 0.0552
   }
  ],
  "paper": true
